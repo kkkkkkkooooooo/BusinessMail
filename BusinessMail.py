@@ -4,7 +4,7 @@ import requests
 def call_dify_api(q1, q2, q3, q4, q5):
     url = "https://api.dify.ai/v1/workflows/run"
     headers = {
-        "Authorization": f"Bearer {"app-OhEQ1sJoljDHLEv2SJPajKLz"}",
+        "Authorization": f"Bearer app-OhEQ1sJoljDHLEv2SJPajKLz",
         "Content-Type": "application/json"
     }
     data = {
