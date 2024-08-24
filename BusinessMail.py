@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-dify_api_key = st.secrets["dify_api_key"]
+dify_api_key = st.secrets["app-OaUWbZLs0oYp0qhgAWZNq9cC"]
 def call_dify_api(q1, q2, q3, q4, q5):
     url = "https://api.dify.ai/v1/workflows/run"
     headers = {
